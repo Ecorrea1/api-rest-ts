@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>API | INVAPP</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">INVAPP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://documenter.getpostman.com/view/9034494/TzJpjL63">Documentacion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Somos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="text-center">Bienvenido a API INV</h1>
+    <hr class="container">
+    <p class="text-center">Aqui mostraremos un poco como esta contruida esta API y su proposito</p>
+    
+    
+
+    <div class="container-info">
+        <h3 class="display-5">Desarrollo</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Lenguajes de programacion</h4>
+              <p id="p-lng">Para este proyecto solo se necesito Javascripts</p>
+            <h4>Frameworks</h4>
+              <p id="p-frameworks">
+                  Aqwui se ocuparon Express y Mongoose
+              </p>
+            <h4>Bases de datos</h4>
+              <p id="p-database">
+                  Actualmente solo estamos ocupando MongoDB
+              </p>
+          </div>
+          <div class="col-md-6">
+            <h4>Herramientas</h4>
+              <p id="p-tools">
+                  Como tal hemos ocupado VSCode, Postman, Git, Heroku, etc
+              </p>
+            <h4>IDEs</h4>
+              <p id="p-editors">Solo ocupamos Visual Studio Code para contruir todo.</p>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <div>En que estamos</div>
+                <div>
+                    <img src="https://media.giphy.com/media/3o7btLqZQXZqQQqZbS/giphy.gif" alt="">
+                </div>    
+            </div>
+            <div class="col">
+                <div>En que estamos</div>
+                <div>
+                    <img src="https://media.giphy.com/media/3o7btLqZQXZqQQqZbS/giphy.gif" alt="">
+                </div>
+            </div>
+            <div class="col">
+                <div>En que estamos</div>
+                <div>
+                    <img src="https://media.giphy.com/media/3o7btLqZQXZqQQqZbS/giphy.gif" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <div class="container responsive ">
+        <table class="table table-bordered table-sm">
+            <thead class="table-dark ">
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Cantidad</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpo-data">
+            </tbody>
+        </table>
+    </div> -->
+
+    <script src="socket.io/socket.io.js"></script>
+    <!-- <script> -->
+        <!-- var socket = io();
+        socket.on('connect', function() {
+            console.log('Server conectado')
+        });
+        socket.on('disconnect', function() {
+            console.log('Perdimos comunicacion con perdida')
+        }); -->
+        <!-- //socket.emit('mensaje', { nombre: 'Fernando' } );
+        // socket.on('nuevo-mensaje',function( payload ){ console.log('Escuchando: ', payload ); });
+        // socket.on('active-products', function( products ){ 
+
+        //     let td = "</td><td>";
+        //     for (let i in products ) {
+
+        //         const data = products[i];
+        //         document.getElementById( "cuerpo-data" ).innerHTML +=
+        //         '<tr scope="row"><td>' +
+        //         i + td +
+        //         data.name + td +
+        //         data.price + td +
+        //         data.quantity +
+        //         '</td></tr>';
+        //     }  
+        // }) -->
+    <!-- // </script> -->
+</body>
+
+</html>
